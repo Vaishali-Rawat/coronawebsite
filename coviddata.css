@@ -1,0 +1,84 @@
+#datacontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(242, 243, 243);
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin: 15px auto;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.info-overall{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black;
+    padding: 30px 10px; */
+}
+.subinfo{
+    padding: 30px 20px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.subinfo p{
+    text-align: center;
+}
+.nums{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.totalcases{
+    border: 3px solid rgb(71, 70, 70);
+    color: rgb(71, 70, 70);
+}
+.activecases{
+    border: 3px solid red;
+    color: red;
+}
+.recovered{
+    border: 3px solid green;
+    color: green;
+}
+.deaths{
+    border: 3px solid brown;
+    color: brown;
+}
+.vaccines{
+    border: 3px solid blue;
+    color: blue;
+}
+#table{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    /* border: 2px solid black; */
+    /* padding: 10px; */
+}
+.table-head{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.table-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 0;
+}
+.table-cell{
+    font-size: 1.1rem;
+    border: 2px solid black;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    margin: 0px 3px;
+    border-radius: 3px;
+}
+body{
+    background: url("/coronainfo_allfiles/medical2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
